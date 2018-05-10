@@ -1,5 +1,6 @@
 var katzDeli = [];
 
+<<<<<<< HEAD
 function currentLine(line){
  if(!line.length){
    return "The line is currently empty."
@@ -27,4 +28,18 @@ function nowServing(line){
   }else{
     return "Currently serving " + line.shift() +".";
   }
+=======
+function takeANumber(line,name){
+  line.push();
+  console.log('Welcome, ' + name + '. You are number '+ line.length ' in line.')
+  return 'Welcome, ' + name + '. You are number '+ line.length ' in line.'
+}
+
+function nowServing(){
+
+}
+
+function currentLine(){
+
+>>>>>>> 551e641da3f9e61b0df1a229446c48d2ea9f7d2b
 }
